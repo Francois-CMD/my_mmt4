@@ -1,0 +1,32 @@
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {font-family: 'Noto Sans JP', sans-serif; 
+font-size: 1.4em;}
+
+p {font-size: 1.2em;}
+
+.clearfix::after{
+content:"";
+clear: both;
+display: block;
+
+}
+
+header{background-color: black;
+height: 6em;margin-bottom: 4em;}
+
+#wrapper{border: 1px solid;
+width:1200px;margin: auto auto;}
+
+section{border: 1px solid;width:45%;margin-bottom:3em;}
+
+.geheel{height:6em;width:inherit;margin-bottom: 3em;}
+
+#l1{float: left;background-color: blueviolet;}
+#r2{float: right;}
+#l3{float: left;}
+#r4{float: right;}

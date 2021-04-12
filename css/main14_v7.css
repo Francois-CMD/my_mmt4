@@ -1,0 +1,44 @@
+/*hoofdmenu */
+
+nav{border: 1px solid; background-color: beige;}
+
+ul{
+list-style-type: none;
+display:flex;justify-content: flex-end;align-items:center;height:4vw;}
+
+ul li a{
+display: block;
+border: 1px solid;
+border-radius: .5em;
+padding: .5em 1em;
+margin: .5em;
+}
+
+#logo{margin-right: auto;}
+
+body{
+    font-family: 'Open Sans', sans-serif;   background-color: beige;
+}
+
+h1, h2, h3 {font-family: 'Noto Sans JP', sans-serif; 
+font-size: 1.4em;
+margin-top:1em}
+
+p {font-size: 1.2em;}
+
+header{font-size: 3em; color: azure;
+height:3vw;
+padding:2em;
+background-image:url("../images/headerrr.jpg");
+background-size: 100% 70%;
+}
+
+.pstart{width:90%; margin:2em auto 2em auto;}
+
+
+.wrapper{width:85%; margin:auto; display:flex; flex-direction:row; flex-flow:wrap;
+justify-content:center;
+}
+
+section{border:1px solid; width: 520px;}
+

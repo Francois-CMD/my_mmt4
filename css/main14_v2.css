@@ -1,0 +1,32 @@
+
+/*hoofdmenu */
+
+nav ul{
+list-style-type: none;
+display:flex}
+
+nav ul li a{
+display: block;
+border: 1px solid;
+border-radius: .5em;
+padding: .5em 1em;
+margin: .5em;
+}
+
+body{
+
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+h1, h2, h3 {font-family: 'Noto Sans JP', sans-serif; 
+font-size: 1.4em;}
+
+p {font-size: 1.2em;}
+
+header{font-size: 3em; color: azure;
+height:10vw;    
+background-image:url("../images/headerrr.jpg");
+background-size: 100% 50%;
+}
+
